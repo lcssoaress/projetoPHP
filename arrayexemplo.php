@@ -17,6 +17,13 @@ foreach ($nome as $nome) {
 	echo "<br/>".$nome;
 }
 
+$num = array(1, 2, 3, 4, 5);
 
+$nome6["MA"] = "maria";
+$nome6["PE"] = "pedro";
+$nome6["JO"] = "joao";
 
+echo "<pre>";
+var_dump($nome6);
+echo "<pre/>";
  ?>

@@ -25,4 +25,24 @@ $meses = ["","janeiro","fevereiro","março","abril","maio","junho","julho","agos
 
 
 print_r($meses[1]);
+
+echo "<br/>";
+echo "EX5";
+echo "<br/>";
+
+$cadastro = array(
+array ("joao","são paulo",18,"M"),
+array ("joao","santos",18,"M"),
+array("joao","santos",18,"M"),
+array("joao","são paulo",18,"M"),
+array("joao","santos",18,"M"),
+array("joao","são paulo",18,"M"),
+array("joao","são paulo",18,"M"),
+array("joao","são paulo",18,"M"),
+array("joao","são paulo",18,"M"),
+array("joao","são paulo",18,"M"),
+);
+
+
+print_r($pessoa1[0].$pessoa1[2]);
  ?>

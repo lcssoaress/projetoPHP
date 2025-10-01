@@ -32,7 +32,7 @@ echo "<br/>";
 
 $cadastro = array(
 array ("joao","são paulo",18,"M"),
-array ("joao","santos",18,"M"),
+array ("pedro","santos",18,"M"),
 array("joao","santos",18,"M"),
 array("joao","são paulo",18,"M"),
 array("joao","santos",18,"M"),
@@ -44,5 +44,12 @@ array("joao","são paulo",18,"M"),
 );
 
 
-print_r($pessoa1[0].$pessoa1[2]);
+foreach ($cadastro as $key => $value) {
+	echo "<br/>";
+	echo $key . "=>" . $value . "\n";
+
+
+
+}
+
  ?>

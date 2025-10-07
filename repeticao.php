@@ -4,6 +4,9 @@
 parada é a entrada de um valor 0, ou seja, o algoritmo deve ficar calculando o
 maior até que a entrada seja igual a 0 (ZERO). 
 */
+echo "<br/><br/>";
+echo "EX1";
+echo "<br/><br/>";
 $maior = 0;
 $saida=0;
 $num1=1;
@@ -18,7 +21,9 @@ $num1=1;
 
 /*2. Faça um algoritmo que conte de 1 a 100 e a cada múltiplo de 10 emita uma
 mensagem: “Múltiplo de 10”	*/
-
+echo "<br/><br/>";
+echo "EX2";
+echo "<br/><br/>";
 $cont=0;
 while ($cont<100) {
     $cont++;
@@ -38,6 +43,9 @@ barato e pediu que o serviço fosse executado, sem se dar conta de que seria
 impossível efetuar o pagamento. Faça um algoritmo para calcular o número de
 grãos que o monge esperava receber.*/
 
+echo "<br/><br/>";
+echo "EX3";
+echo "<br/><br/>";
 
 $num1=1;
 

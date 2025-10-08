@@ -3,37 +3,39 @@ echo "EX3";
 echo "<br/>";
 
 $nota = 0;
-$maior = 0;
+$maior ={
+	array(),
+	array(),
+	array(),
+	array(),
+	array(),
+	array(),
+	array(),
+	array(),
+	array(),
+	array()
+};
+
 $media = 0;
 $alunos = array('lucas' => 7,'marcio' => 10,'jessica' => 6,'rafael' => 4,'leticia' => 9,'pedro' => 7,'joao' => 3,'felipe' => 6,'sergio' => 9,'marcela' => 2);
-
-
-
-
 
 foreach ($alunos as $key => $value) {
 	$media = $media + $value;
 }
 
-foreach ($alunos as $key => $value) {
-	$nota = $nota + $value;
-}
-
-for ($c=0; $c < 10; $c++) { 
-	if ($nota > $maior) {
-	$maior = $maior + $nota;
+for ($linha=0; $linha < 10; $linha++) { 
+	for ($coluna=0; $coluna < 10; $coluna++) { 
+		if ($alunos[$linha][$coluna] > $maior[$linha][$coluna]) {
+	    $maior[$linha][$coluna] = $maior[$linha][$coluna] + $alunos[$linha][$coluna];
+}	
 }
 }
-
-
-
 
 $media = $media / 10;
 
 echo "A média da nota dos alunos é: $media.";
 
 echo "<br/>O aluno com maior nota é: $maior.";
-
 
 echo "<br/>";
 echo "EX4";

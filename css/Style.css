@@ -1,0 +1,10 @@
+* {
+padding: 0px;
+box-sizing: border-box;
+margin: 0;
+border: 0;
+}
+
+.container{
+background-color: gray;
+}

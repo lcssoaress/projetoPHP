@@ -10,7 +10,7 @@
 	<body>
 	<h1>Cadastro de usuário</h1>
 	<main class="container">
-	<form action="#" method="post">
+	<form action="include/cadastrar.php" action="#" method="post">
 		<div class="md-3">
 			<label for="primeiroNome">Primeiro nome</label>
 	<input type="text" name="primeiroNome" id="primeiroNome" placeholder="Primeiro Nome ... " maxlength="50" required autofocus>

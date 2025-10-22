@@ -15,12 +15,15 @@ main h1{
 }
 
 .container{
-
+display: flex;
+justify-content: center;
+align-content: cen;
 margin-top: 200px;
 background-color: black;
 padding: 20px;
 border-radius: 20px;
-border-color: white;
+border-color: green;
+border: 20px;
 }
 
 label{

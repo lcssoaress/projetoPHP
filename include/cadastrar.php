@@ -1,11 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Cadastrado com sucesso</title>
-</head>
-<body>
+<?php 
+$primeiroNome = $_POST['$primeiroNome'];
+$sobreNome = $_POST['$sobreNome'];
+$escolhaPets = $_POST['$escolhaPets'];
 
-</body>
-</html>
+echo "$primeiroNome "."$sobreNome "."$escolhaPets";
+
+echo "<a>Voltar</a>";
+ ?>

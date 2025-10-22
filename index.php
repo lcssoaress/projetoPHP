@@ -8,8 +8,9 @@
 		 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 	</head>
 	<body>
-	<h1>Cadastro de usuário</h1>
+	
 	<main class="container">
+		<h1>Cadastro de usuário</h1>
 	<form action="include/cadastrar.php" action="#" method="post">
 		<div class="md-3">
 			<label for="primeiroNome">Primeiro nome</label>

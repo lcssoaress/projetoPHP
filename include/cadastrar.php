@@ -5,5 +5,7 @@ $escolhaPets = $_POST['$escolhaPets'];
 
 echo "$primeiroNome "."$sobreNome "."$escolhaPets";
 
-echo "<a>Voltar</a>";
+echo '<a href="../index.php">Voltar</a>';
+
+
  ?>

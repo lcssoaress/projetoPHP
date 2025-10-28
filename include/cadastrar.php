@@ -1,17 +1,18 @@
 <?php 
-if ($_SERVER['REQUEST_METHOD']== 'POST') {
-$primeiroNome = $_POST['primeiroNome'];
-$sobreNome = $_POST['sobreNome'];
-$escolhaPets = $_POST['escolhaPets'];
-
-echo "$primeiroNome "."$sobreNome "."$escolhaPets";
-
-echo '<a href="../index.php">Voltar</a>';
-	
-}else{
-	echo "é Get";
+if (isset($_POST['cachorro'])) {
+	echo "$_POST['cachorro']";
+	echo "<br>";
 }
-
-
-
+	if (isset($_POST['gato'])) {
+	echo "$_POST['gato']";
+	echo "<br>";
+}
+	if (isset($_POST['passarinho'])) {
+	echo "$_POST['passarinho']";
+	echo "<br>";
+}
+	if (isset($_POST['peixe'])) {
+	echo "$_POST['peixe']";
+	echo "<br>";
+}
  ?>

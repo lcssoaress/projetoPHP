@@ -12,28 +12,15 @@
 	<main class="container">
 		<h1>Cadastro de usuário</h1>
 	<form action="include/cadastrar.php" action="#" method="post">
-		<div class="md-3">
-			<label for="primeiroNome">Primeiro nome</label>
-	<input type="text" name="primeiroNome" id="primeiroNome" placeholder="Primeiro Nome ... " maxlength="50" required autofocus>
-
-		</div>
-	<div class="md-3">
-		<label for="primeiroNome">Sobrenome</label>
-	<input type="text" name="sobreNome" id="sobreNome" placeholder="Sobrenome ... " maxlength="50" required>
-
-	</div>
-	<div class="md-3">
-		<label for="escolhaPets">Escolha seu Pet</label>
-	<select id="escolhaPets" name="escolhaPets">
-		<option value="nenhum">Nenhum</option>
-		<option value="cachorro">Cachorro</option>
-		<option value="gato">Gato</option>
-		<option value="passarinho">Passarinho</option>
-		<option value="peixe">Peixe</option>
-	</select>
-	</div>
-	<button class="btn btn-primary" type="submit">Enviar</button>
-	<button class="btn btn-warning" type="reset">Limpar</button>
+		Estados
+		<select name="estados">
+			
+			<option value="SP">São Paulo</option>
+			<option value="RJ">Rio de Janeiro</option>
+			<option value="MG">Minas Gerais</option>
+			<option value="BA">Bahia</option>
+		</select>
+		<input type="submit" value="enviar">
 
 
 	</form>

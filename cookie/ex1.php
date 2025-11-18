@@ -6,30 +6,31 @@
 	<title>votacao</title>
 </head>
 <body>
-	<h1>Área de votação: Vote em qual membro da akatsuki é o mais forte</h1>
+	
 <form action="ex1.1.php">
+	<h1>Área de votação: Vote em qual membro da akatsuki é o mais forte</h1>
 	Deidara:
-	<input type="radio" name="deidara">
+	<input type="radio" name="esc"><br>
 	Zetsu:
-	<input type="radio" name="zetsu">
+	<input type="radio" name="esc"><br>
 	Hidan:
-	<input type="radio" name="hidan">
+	<input type="radio" name="esc"><br>
 	Kakuzu:
-	<input type="radio" name="kakuzu">
+	<input type="radio" name="esc"><br>
 	Kisame:
-	<input type="radio" name="kisame">
+	<input type="radio" name="esc"><br>
 	Konan:
-	<input type="radio" name="konan">
+	<input type="radio" name="esc"><br>
 	Sasori:
-	<input type="radio" name="sasori">
+	<input type="radio" name="esc"><br>
 	Orochimaru:
-	<input type="radio" name="orochi">
+	<input type="radio" name="esc"><br>
 	Itachi:
-	<input type="radio" name="itachi">
+	<input type="radio" name="esc"><br>
 	Tobi:
-	<input type="radio" name="tobi">
+	<input type="radio" name="esc"><br>
 	Pain:
-	<input type="radio" name="pain">
+	<input type="radio" name="esc"><br>
 </form>
 </body>
 </html>

@@ -1,5 +1,11 @@
 <?php 
 $escolha = $_POST["esc"];
 setcookie("esc", $escolha, time()+60);
-echo "$escolha";
+if (isset($_COOKIE['esc'])== "") {
+
+	echo "Escolha um membro!";
+}else{
+	
+}
+
  ?>

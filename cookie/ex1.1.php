@@ -6,7 +6,7 @@ $hidan = 0;
 $kakuzu = 0;
 $kisame = 0;
 
-if (isset($_COOKIE['esc']) !== "") {
+if (!isset($_COOKIE['esc']) ) {
 	setcookie("esc", $escolha, time()+60);
 $msg = "Parabéns pelo voto!";
 	

@@ -13,11 +13,11 @@
 
 		<th>Akatsuki:</th><br>
 		
-		<td>Deidara</td>
-		<td>Zetsu</td>
-		<td>Hidan</td>
-		<td>Kakuzu</td>
-		<td>Kisame</td>
+		<td>Deidara, </td>
+		<td>Zetsu, </td>
+		<td>Hidan, </td>
+		<td>Kakuzu, </td>
+		<td>Kisame, </td>
 	
 	</table>
 	

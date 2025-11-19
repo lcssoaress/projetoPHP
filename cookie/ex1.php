@@ -7,7 +7,7 @@
 </head>
 <body>
 	
-<form action="ex1.1.php">
+<form action="ex1.1.php" method="post">
 	<h1>Área de votação: Vote em qual membro da akatsuki é o mais forte</h1>
 	Deidara:
 	<input type="radio" name="esc"><br>
@@ -31,6 +31,7 @@
 	<input type="radio" name="esc"><br>
 	Pain:
 	<input type="radio" name="esc"><br>
+	<button>Votar</button>
 </form>
 </body>
 </html>

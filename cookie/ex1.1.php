@@ -7,25 +7,28 @@ $kakuzu = 0;
 $kisame = 0;
 setcookie("esc", $escolha, time()+60);
 if ($_COOKIE['esc'] == "Deidara") {
-echo "Parabéns pelo voto!";
-	$deidara++;
+$msg = "Parabéns pelo voto!";
+	
 }else if ($_COOKIE['esc'] == "Zetsu") {
-echo "Parabéns pelo voto!";
-	$zetsu++;
+$msg = "Parabéns pelo voto!";
+	
 }else if ($_COOKIE['esc'] == "Hidan") {
-echo "Parabéns pelo voto!";
-	$hidan++;
+$msg = "Parabéns pelo voto!";
+	
 }else if ($_COOKIE['esc'] == "Kakuzu") {
-echo "Parabéns pelo voto!";
-	$kakuzu++;
+$msg = "Parabéns pelo voto!";
+	
 }else if ($_COOKIE['esc'] == "Kisame") {
-echo "Parabéns pelo voto!";
-	$kisame++;
+$msg = "Parabéns pelo voto!";
+	
 }else{
-echo "Selecione um dos membros da akatsuki!";
+$msg = "você ja votou uma vez!";
 
 }
-	
+
+echo "$msg";
+
+echo "<a href="location:ex1.php">Voltar</a>";
 
 
  ?>

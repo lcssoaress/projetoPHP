@@ -5,20 +5,9 @@ $zetsu = 0;
 $hidan = 0;
 $kakuzu = 0;
 $kisame = 0;
-setcookie("esc", $escolha, time()+60);
-if ($_COOKIE['esc'] == "Deidara") {
-$msg = "Parabéns pelo voto!";
-	
-}else if ($_COOKIE['esc'] == "Zetsu") {
-$msg = "Parabéns pelo voto!";
-	
-}else if ($_COOKIE['esc'] == "Hidan") {
-$msg = "Parabéns pelo voto!";
-	
-}else if ($_COOKIE['esc'] == "Kakuzu") {
-$msg = "Parabéns pelo voto!";
-	
-}else if ($_COOKIE['esc'] == "Kisame") {
+
+if (isset($_COOKIE['esc']) !== "") {
+	setcookie("esc", $escolha, time()+60);
 $msg = "Parabéns pelo voto!";
 	
 }else{
@@ -28,7 +17,9 @@ $msg = "você ja votou uma vez!";
 
 echo "$msg";
 
-echo "<a href="location:ex1.php">Voltar</a>";
+
 
 
  ?>
+
+ <a href="ex1.php">Voltar para a tela de votação.</a>
